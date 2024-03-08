@@ -1,0 +1,93 @@
+body{
+  color: #fff;
+  background: rgb(217,105,0);
+  background: linear-gradient(90deg, rgb(0, 148, 217) 0%, rgba(173, 135, 52, 0.26) 39%, rgb(0, 174, 255) 100%);
+}
+
+div#container{
+  margin: auto;
+  height: 100vh;
+  width: 60%;
+  background: #86ade9;
+}
+
+div#radar{
+  margin: auto;
+  width: 50%;
+}
+
+#footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#vhsmode{
+
+  position: absolute;
+  background-image: url(../assets/vhsnoise.gif);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  opacity: .1;
+}
+/*
+#vhsmode{
+  z-index: 1;
+    font-family: "VCR OSD Mono";
+
+    background-color:black;
+    color:lightgrey;
+    overflow:hidden;
+    background-image:'./assets/vhsnoise.gif';
+      background-size:cover;
+
+    margin:0;
+    text-shadow: black 2px 2px 1px, black -2px 2px 1px, black -2px -2px 1px, black 2px -2px 1px, black 0px 2px 1px, black 0px -2px 1px, black 2px 0px 1px, black -2px 0px 1px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background: #86ade9;
+  }
+
+/*Old CSS from stock VUE*/
+/*@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+#app {
+  grid-template-columns: 1fr 1fr;
+  padding: 0 2rem;
+}
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+*/
