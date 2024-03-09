@@ -6,7 +6,7 @@
     <div id="blankdiv"></div>
  
   <footer id="footer" class="text-white">
-    <audio controls loop src="https://github.com/iamgillespie/retroscan/raw/main/public/music.mp3" ref="audioPlayer"></audio>
+    <audio controls loop src="./music" ref="audioPlayer"></audio>
     <div id="retroDiv">
       
       
