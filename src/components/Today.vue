@@ -22,12 +22,10 @@
           </li>
           <li><a class="dropdown-item" href="#" @click="changeCoords('SEW/125,68', 'Seattle')">Seattle</a></li>
         </ul>
-        <img src="./icons/vhsmode.svg" alt="vhs mode" class="px-2" @click="vhsmode" />
+        
       </div>
     </div>
   </nav>
-
-
 
   <div id="carouselWx" class="carousel slide carousel-fade text-white h-25" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -62,14 +60,6 @@
   <div id="radar">
     <img src="https://radar.weather.gov/ridge/standard/CONUS_loop.gif" alt="radar">
   </div>
-
-  <div id="blankdiv"></div>
-  <footer id="footer" class="text-white">
-
-    <p class="text-end">about</p>
-
-  </footer>
-
 
 </template>
 
