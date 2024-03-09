@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar text-white">
+  <nav class="navbar text-white px-3">
     <div class="container-fluid">
       <a class="navbar-brand text-white">RetroScan Weather</a>
 
