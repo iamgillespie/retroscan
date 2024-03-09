@@ -6,7 +6,7 @@
     <div id="blankdiv"></div>
  
   <footer id="footer" class="text-white">
-    <audio loop src="./public/music.mp3" ref="audioPlayer"></audio>
+    <audio loop src="./music.mp3" ref="audioPlayer"></audio>
     <div id="retroDiv">
       
       
