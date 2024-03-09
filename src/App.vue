@@ -17,7 +17,7 @@
     </div>
   </footer>    
   </div>
- <div id="blocker" class="lead">This site was not designed for mobile devices. Please view on a personal computer or similar device. </div>
+ <div id="blocker"><p class="display-4">This site was not designed for mobile devices.</p><hr><p class="lead">Please view on a personal computer or similar device.</p></div>
 </template>
 <script>
 
