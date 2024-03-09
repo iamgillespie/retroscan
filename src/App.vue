@@ -20,9 +20,9 @@
   </div>
   <div id="blocker">
     <div id="blockerMessage">
-<p class="display-4">This site was not designed for mobile devices.</p>
-    <hr>
-    <p class="lead">Please view on a personal computer or similar device.</p>
+      <p class="display-4">This site was not designed for mobile devices.</p>
+      <hr>
+      <p class="lead">Please view on a personal computer or similar device.</p>
     </div>
 
   </div>
