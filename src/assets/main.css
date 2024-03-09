@@ -4,6 +4,29 @@ body{
   background: linear-gradient(90deg, rgb(0, 148, 217) 0%, rgba(173, 135, 52, 0.26) 39%, rgb(0, 174, 255) 100%);
 }
 
+div#blocker{
+  z-index: 9999;
+  position:fixed;
+  height: 100vh;
+  width: 100vw;
+  background: #86ade9;
+  color: #fff;
+  text-align: center;
+  padding-block: 25vh;
+}
+
+
+@media screen and (min-width: 1600px){
+div#blocker{
+  display: none;
+}
+}
+@media screen and (max-width: 1600px){
+  div#container{
+    display: none;
+  }
+  }
+
 a:link{
   text-decoration: none;
 }

@@ -1,10 +1,11 @@
 <template>
+  
   <div v-if="isNormal" id="normal"></div>
   <div v-else id="vhsmode"></div>
   <div id="container">
     <Today />
     <div id="blankdiv"></div>
- 
+
   <footer id="footer" class="text-white">
     <audio loop src="./music" ref="audioPlayer"></audio>
     <div id="retroDiv">
@@ -16,7 +17,7 @@
     </div>
   </footer>    
   </div>
-
+ <div id="blocker" class="lead">This site was not designed for mobile devices. Please view on a personal computer or similar device. </div>
 </template>
 <script>
 
