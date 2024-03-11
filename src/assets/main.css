@@ -40,6 +40,14 @@ div#blocker {
   }
 }
 
+@media screen and (max-width: 1600px){
+img#radar{
+  opacity: .15;
+width: 100px;
+}
+}
+
+
 a:link {
   text-decoration: none;
 }
@@ -57,12 +65,7 @@ div#radar {
   margin: auto;
   width: 50%;
 }
-@media screen and (max-width: 1800px){
-img#radar{
-  opacity: .15;
-width: 100px;
-}
-}
+
 #footer {
   position: fixed;
   bottom: 0;
