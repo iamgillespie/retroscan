@@ -58,7 +58,7 @@ div#radar {
   width: 50%;
 }
 @media screen and (max-width: 1700px){
-img#radar{
+div#radar{
 width:100%;
 }
 }
