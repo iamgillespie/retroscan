@@ -41,7 +41,7 @@ div#blocker {
 }
 
 @media screen and (max-width: 1600px){
-img#radar{
+div#radar{
   opacity: .15;
 width: 100px;
 }
