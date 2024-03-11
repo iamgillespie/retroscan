@@ -26,13 +26,13 @@ div#blocker {
   justify-content: center;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   div#blocker {
     display: none;
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   div#container {
     position: absolute;
 
