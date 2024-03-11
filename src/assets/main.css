@@ -39,17 +39,16 @@ div#blocker {
     filter: blur(40px);
   }
 }
-
+/*
 @media screen and (max-width: 1600px){
-div#radar{
+img#radar{
   opacity: .15;
-size: 25%;
+  
 }
-}
+}*/
 div#radar {
-  padding: 25%;
   margin: auto;
-  width: 50%;
+  max-width: 75%;
 }
 
 a:link {
