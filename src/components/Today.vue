@@ -70,8 +70,8 @@ export default {
   data() {
     return {
       Forecast: '',
-      coords: 'EWX/30,97',
-      location: 'Austin',
+      coords: 'LOT/75,72',
+      location: 'Chicago',
     }
   },
   methods: {
