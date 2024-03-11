@@ -31,9 +31,11 @@
     <div class="carousel-inner">
       <div v-for="wx in Forecast" :key="wx.number">
         <div class="carousel-item middle" :class="{ active: wx.number === 1 }" data-bs-interval="4000">
-          <div class="row justify-content-md-center px-5">
-            <div class="col-2 py-5">
-              <img v-bind:src="wx.icon" v-bind:alt="wx.shortForcast" id="icon" class="align-middle">
+          <div class="row justify-content-md-center px-5 mx-5">
+            <div class="col-2 align-middle">
+              <div class="container text-center h-100">
+                  <img v-bind:src="wx.icon" v-bind:alt="wx.shortForcast" id="icon" class="py-5">
+              </div>
             </div>
             <div class="col-7 py-2">
               <p class="lead text-center">{{ location }} | {{ wx.name }}</p>
@@ -57,7 +59,7 @@
     </button>
   </div>
 
-  <div id="radar" class="row p-5 text-center">
+  <div id="radar" class="row text-center">
     <img src="https://radar.weather.gov/ridge/standard/CONUS_loop.gif" class="mx-auto d-block" alt="radar">
   </div>
 
