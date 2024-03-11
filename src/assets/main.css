@@ -59,7 +59,8 @@ div#radar {
 }
 @media screen and (max-width: 1700px){
 img#radar{
-width:50%;
+width: 300px;
+  align-self: center;
 }
 }
 #footer {
