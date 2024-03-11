@@ -35,7 +35,7 @@
             <div class="col-2 py-5">
               <img v-bind:src="wx.icon" v-bind:alt="wx.shortForcast" id="icon" class="align-middle">
             </div>
-            <div class="col-5 py-2">
+            <div class="col-7 py-2">
               <p class="lead text-center">{{ location }} | {{ wx.name }}</p>
               <hr>
               <p class="text-wrap">{{ wx.detailedForecast }}</p>
