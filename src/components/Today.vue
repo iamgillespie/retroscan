@@ -57,8 +57,8 @@
     </button>
   </div>
 
-  <div id="radar">
-    <img src="https://radar.weather.gov/ridge/standard/CONUS_loop.gif" alt="radar">
+  <div id="radar" class="row p-5 text-center">
+    <img src="https://radar.weather.gov/ridge/standard/CONUS_loop.gif" class="mx-auto d-block" alt="radar">
   </div>
 
 </template>

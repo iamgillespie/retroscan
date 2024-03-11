@@ -26,29 +26,24 @@ div#blocker {
   justify-content: center;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   div#blocker {
     display: none;
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1023px) {
   div#container {
     position: absolute;
 
     filter: blur(40px);
   }
 }
-/*
-@media screen and (max-width: 1600px){
-img#radar{
-  opacity: .15;
-  
-}
-}*/
+
 div#radar {
   margin: auto;
-  max-width: 75%;
+  max-width: 600px;
+  max-height: 392px;
 }
 
 a:link {
