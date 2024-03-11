@@ -57,7 +57,11 @@ div#radar {
   margin: auto;
   width: 50%;
 }
-
+@media screen and (max-width: 1600px){
+img#radar{
+width:100%
+}
+}
 #footer {
   position: fixed;
   bottom: 0;
