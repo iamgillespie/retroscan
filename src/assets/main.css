@@ -26,13 +26,13 @@ div#blocker {
   justify-content: center;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1400px) {
   div#blocker {
     display: none;
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1400px) {
   div#container {
     position: absolute;
 
@@ -57,7 +57,7 @@ div#radar {
   margin: auto;
   width: 50%;
 }
-@media screen and (max-width: 1700px){
+@media screen and (max-width: 1800px){
 img#radar{
 width: 300px;
   align-self: center;
