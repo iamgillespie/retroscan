@@ -58,8 +58,8 @@ div#radar {
   width: 50%;
 }
 @media screen and (max-width: 1700px){
-div#radar{
-width:100%
+img#radar{
+width:100%;
 }
 }
 #footer {
