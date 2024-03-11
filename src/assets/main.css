@@ -43,10 +43,14 @@ div#blocker {
 @media screen and (max-width: 1600px){
 div#radar{
   opacity: .15;
-width: 100px;
+size: 25%;
 }
 }
-
+div#radar {
+  padding: 25%;
+  margin: auto;
+  width: 50%;
+}
 
 a:link {
   text-decoration: none;
@@ -59,11 +63,6 @@ div#container {
   background: #86ade9;
   border-radius: 25px;
   box-shadow: 2px 2px 2px 4px rgb(0 0 0 / 20%);
-}
-
-div#radar {
-  margin: auto;
-  width: 50%;
 }
 
 #footer {
